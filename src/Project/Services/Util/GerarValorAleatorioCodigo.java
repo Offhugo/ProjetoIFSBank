@@ -1,4 +1,4 @@
-package Project.Model.Correntista;
+package Project.Services.Util;
 
 import java.util.Random;
 

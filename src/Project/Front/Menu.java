@@ -1,6 +1,8 @@
 package Project.Front;
 
-import Project.Services.CriarAcessos.CriarCorrentistas.GerarCorrentista;
+import Project.Services.CriarAcessos.CriarCorrentistas.CorrentistaService;
+import Project.Services.CriarAcessos.CriarCorrentistas.CorrentistaInputView;
+
 
 import java.util.Scanner;
 
@@ -14,7 +16,6 @@ public class Menu {
     // ESBOÇO
 
     public void ativarMenu() {
-        GerarCorrentista gerarCorrentista = new GerarCorrentista();
         Scanner sc = new Scanner(System.in);
 
         int count = 1;
@@ -32,7 +33,7 @@ public class Menu {
             int selct = sc.nextInt();
 
             if (selct == 1) {
-                gerarCorrentista.gerandoCorrentista();
+
             } else if (selct == 2) {
                 // chamar metodo de acesso a conta
             } else if (selct == 3) {

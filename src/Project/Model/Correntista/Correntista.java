@@ -3,11 +3,11 @@ package Project.Model.Correntista;
 public class Correntista {
     private int codigo;
     private String nome;
-    private int telefone;
+    private String telefone;
     private boolean estaLogado;
     private String senha;
 
-    public Correntista(int codigo, String nome, int telefone, boolean estaLogado, String senha){
+    public Correntista(int codigo, String nome, String telefone, boolean estaLogado, String senha){
         this.codigo = codigo;
         this.nome = nome;
         this.telefone = telefone;
@@ -42,11 +42,11 @@ public class Correntista {
         this.nome = nome;
     }
 
-    public int getTelefone() {
+    public String getTelefone() {
         return this.telefone;
     }
 
-    public void setTelefone(int telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
